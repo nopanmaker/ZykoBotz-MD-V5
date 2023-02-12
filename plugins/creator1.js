@@ -6,7 +6,7 @@ let name = await conn.getName(who)
 
 
 if (command == 'zykomods1') {
- let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;Saya Owner ZYKO;BOTZ;;MD\nFN:Saya Owner Zyko-MD Bot WhatsApp, MD\n\n\n\nNICKNAME:👑 Owner Zyko-MD\nORG:ZYKO\nTITLE:MD\nitem1.TEL;waid=6282124046059:+62 821-2404-6059\nitem1.X-ABLabel:📞 Nomor Owner\nitem2.https://youtu.be/ksSAA3bxs_0\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:zykobotmdofficial@gmail.com\nitem3.X-ABLabel:💌 Mail Owner Zyko-MD\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🔖 KEPO LU YAH\nEND:VCARD`
+ let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;Saya Owner ZYKO;BOTZ;;MD\nFN:Saya Owner Zyko-MD Bot WhatsApp, MD\n\n\n\nNICKNAME:👑 Owner Zyko-MD\nORG:ZYKO\nTITLE:MD\nitem1.TEL;waid=6285862754807:+62 858-6275-4807\nitem1.X-ABLabel:📞 Nomor Owner\nitem2.https://youtu.be/ksSAA3bxs_0\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:zykobotmdofficial@gmail.com\nitem3.X-ABLabel:💌 Mail Owner Zyko-MD\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🔖 KEPO LU YAH\nEND:VCARD`
 const tag_own = await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, { quoted: fakes })
 let caption = `👋 Hai *${name} @${who.split("@")[0]}*, Nih Owner *${conn.user.name}* kak`
     await conn.sendButton(m.chat, caption, author, null, [['🎀 Sapa Owner', 'Huuu']], m, { quoted: tag_own, mentions: conn.parseMention(caption) })
