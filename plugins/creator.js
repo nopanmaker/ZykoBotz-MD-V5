@@ -24,11 +24,11 @@ ${htjava} *💌 Nama* : Zyko-MD
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 18 🥶
+${htjava} *🎨 Umur* : 17 🥶
 ${htjava} *🧮 Kelas* : private
 ${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
 ${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Sukabumi
+${htjava} *🗺️ Tinggal* : Kuningan 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 ${htjava} *💌 TY:* ${syt}
